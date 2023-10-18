@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/homework1.css" />
+  </head>
+  <style>
+    #w3review,input[type="text"],
+    select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    input[type="email"]{
+        width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #4caf50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .gender{
+        margin: 0;
+    }
+    
+  </style>
+  <body>
+    <ul class="nav">
+      <li><a href="/homework1.html">Home</a></li>
+      <li><a href="/courses.html">Courses</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li style="float: right"><a class="active" href="/about.html">About</a></li>
+    </ul>
+    <h1>Contact Us</h1>
+    <div>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Your Email</label>
+        <input
+          type="email"
+          id="lname"
+          name="email"
+          placeholder="Your email.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label class="container"> Gender: 
+            <div class="gender">
+            Male<input type="radio" checked="checked" name="radio">
+            Female<input type="radio" name="radio">
+        </div>
+          </label>
+          <!-- <label class="container">Female
+            
+            
+          </label> -->
+       
+        <label for="w3review">Messages</label>
+
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+            
+            </textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

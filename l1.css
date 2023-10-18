@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(161, 204, 210);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.first-container{
+    display: inline;
+    width: 300px;
+}
+
+  
+  

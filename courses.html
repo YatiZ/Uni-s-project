@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/homework1.css" />
+    <link rel="stylesheet" href="/button.css" />
+  </head>
+  <style>
+    table,
+    td,
+    th {
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    table {
+      border-collapse: collapse;
+
+      width: 800px;
+      margin-top: 30px;
+      margin-left: 110px;
+    }
+    th {
+      background-color: rgb(137, 137, 164);
+    }
+
+    th,
+    td {
+      padding: 15px;
+    }
+    tr:hover {
+      background-color: aqua;
+    }
+
+    button {
+      margin-top: 20px;
+    }
+
+    img {
+      float: left;
+      padding-right: 10px;
+    }
+    .intro {
+      border: 2px solid red;
+      width: 100%;
+      height: 240px;
+      background-color: rgb(230, 227, 227);
+      padding: 6px;
+    }
+    .btnForm {
+      display: block;
+    }
+    .courseInfo {
+      margin-top: 30px;
+      width: 800px;
+      margin-left: 100px;
+    }
+    .titleCourse {
+      text-align: center;
+    }
+    .column {
+      float: left;
+      width: 400px;
+      padding: 5px;
+      border: 1px solid black;
+      background-color: grey;
+      margin-left: 10px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    * {
+      box-sizing: border-box;
+      /* display: inline; */
+    }
+    .row {
+      margin-top: 20px;
+      margin: 30px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <ul class="nav">
+      <li><a href="/homework1.html">Home</a></li>
+      <li><a href="/courses.html">Courses</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li style="float: right">
+        <a class="active" href="/about.html">About</a>
+      </li>
+    </ul>
+    <div>
+      <h1 class="titleCourse">Available Courses</h1>
+      <table>
+        <tr>
+          <th>Course Name</th>
+          <th>Duration</th>
+          <th>Tuition Fees</th>
+        </tr>
+        <tr>
+          <td>Database</td>
+          <td>4months</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Computer System</td>
+          <td>3months</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>Comupter Network</td>
+          <td>4months</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>Software Techniques</td>
+          <td>4months</td>
+          <td>$250</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img
+          src="https://media.gettyimages.com/id/1221479375/photo/young-woman-working-from-home.jpg?s=612x612&w=gi&k=20&c=9_UYz7pFjwhx3wR3uKv2npm0ipPcOhJdnd14NxbUc4E="
+          alt="Snow"
+          style="width: 100%"
+        />
+        <button class="button-17" role="button">Online</button>
+      </div>
+      <div class="column">
+        <img
+          src="https://media.gettyimages.com/id/182059956/photo/large-group-of-students-writing-in-notebooks.jpg?s=612x612&w=gi&k=20&c=q1GO5rc3UPifdpl_wjsNeesVvPDMOp68sH_7SUiN58I="
+          alt="Forest"
+          style="width: 100%"
+        />
+        <button class="button-17" role="button">Campus</button>
+      </div>
+      <!-- <div class="column">
+      <img src="/61897a35583a9b51db018d3e_MartinPublicSeating-97560-Importance-School-Library-blogbanner1.jpg" alt="Mountains" style="width:100%">
+      <button class="button-17" role="button">Enroll</button>
+    </div>
+    <div class="column">
+        <img src="/61897a35583a9b51db018d3e_MartinPublicSeating-97560-Importance-School-Library-blogbanner1.jpg" alt="Mountains" style="width:100%">
+        <button class="button-17" role="button">Enroll</button>
+      </div> -->
+    </div>
+
+    <div class="courseInfo">
+      <h2>Database</h2>
+
+      <div class="intro">
+        <img
+          src="https://media.gettyimages.com/id/157334670/photo/database.jpg?s=612x612&w=gi&k=20&c=bPahPD0kN0OeWUF-OknavjUbkRjezodff0p5vFD8I1c="
+          alt="Pineapple"
+          style="width: 170px; height: 170px; margin-left: 15px"
+        />
+        <div class="btnForm">
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+            ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in
+            odio. Praesent convallis urna a lacus interdum ut hendrerit risus
+            congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim
+            ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+            Donec vitae dui eget tellus gravida venenatis. Integer fringilla
+            congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+            Cras ac leo purus. Mauris quis diam velit.
+          </div>
+          <button class="button-17" role="button">Enroll</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="courseInfo">
+      <h2 class="tooltip">Computer System
+        <span class="tooltiptext">Fees: $200</span>
+      </h2>
+
+      <div class="intro">
+        <img
+          src="https://media.gettyimages.com/id/183515060/photo/close-up-of-an-intricate-circuit-board.jpg?s=612x612&w=gi&k=20&c=_3KeQyFID3xRHMoj9O9gfREzBFvPYGifaM-YhCBBd7c="
+          alt="Pineapple"
+          style="width: 170px; height: 170px; margin-left: 15px"
+        />
+        <div class="btnForm">
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+            ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in
+            odio. Praesent convallis urna a lacus interdum ut hendrerit risus
+            congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim
+            ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+            Donec vitae dui eget tellus gravida venenatis. Integer fringilla
+            congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+            Cras ac leo purus. Mauris quis diam velit.
+          </div>
+          <button class="button-17" role="button">Enroll</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="courseInfo">
+      <h2>Comupter Network</h2>
+
+      <div class="intro">
+        <img
+          src="https://media.gettyimages.com/id/157334670/photo/database.jpg?s=612x612&w=gi&k=20&c=bPahPD0kN0OeWUF-OknavjUbkRjezodff0p5vFD8I1c="
+          alt="Pineapple"
+          style="width: 170px; height: 170px; margin-left: 15px"
+        />
+        <div class="btnForm">
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+            ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in
+            odio. Praesent convallis urna a lacus interdum ut hendrerit risus
+            congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim
+            ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+            Donec vitae dui eget tellus gravida venenatis. Integer fringilla
+            congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+            Cras ac leo purus. Mauris quis diam velit.
+          </div>
+          <button class="button-17" role="button">Enroll</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="courseInfo">
+      <h2>Software Techniques</h2>
+
+      <div class="intro">
+        <img
+          src="https://media.gettyimages.com/id/157334670/photo/database.jpg?s=612x612&w=gi&k=20&c=bPahPD0kN0OeWUF-OknavjUbkRjezodff0p5vFD8I1c="
+          alt="Pineapple"
+          style="width: 170px; height: 170px; margin-left: 15px"
+        />
+        <div class="btnForm">
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+            ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in
+            odio. Praesent convallis urna a lacus interdum ut hendrerit risus
+            congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim
+            ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+            Donec vitae dui eget tellus gravida venenatis. Integer fringilla
+            congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+            Cras ac leo purus. Mauris quis diam velit.
+          </div>
+          <button class="button-17" role="button">Enroll</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="row">
+          <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="row">
+          INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By:
+          Mahesh
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
